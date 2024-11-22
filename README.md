@@ -15,17 +15,7 @@ Through a series of experiments across various datasets, we demonstrate the usef
 This repository contains two separate folders for each dataset: CIFAR10, and CIFAR100. 
 
 *   Contains the scripts used for implentating of verious mechanisms for each dataset. 
-*   `environment.yml`: [Description, e.g., Conda environment file with the required packages.]
 *   `LICENSE`: License information for the code and data.
-
-## Installation
-
-[Provide clear instructions on how to set up the necessary environment and install the required dependencies.  This might include:]
-
-1.  Clone the repository: `git clone https://github.com/your-username/your-repository.git`
-2.  Create a conda environment (optional but recommended): `conda env create -f environment.yml`
-3.  Activate the environment: `conda activate your_environment_name`
-4.  Install additional packages (if any): `pip install -r requirements.txt`
 
 ## Running the Code
 
