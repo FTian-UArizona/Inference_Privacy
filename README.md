@@ -1,4 +1,4 @@
-# [Imference Privacy]
+# [Inference Privacy]
 
 This repository contains the code and data associated with the paper Inference Privacy: Properties and Mechanisms.
 
