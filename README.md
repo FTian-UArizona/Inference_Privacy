@@ -1,7 +1,6 @@
 # [Inference Privacy]
 
 This repository contains the code and data associated with the paper Inference Privacy: Properties and Mechanisms.
-This paper is available on arXiv. LINK MISSING
 
 ## Description
 
