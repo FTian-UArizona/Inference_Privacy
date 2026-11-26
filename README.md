@@ -1,6 +1,10 @@
-# [Inference Privacy]
+# Inference Privacy: Properties and Mechanisms
 
-This repository contains the code and data associated with the paper Inference Privacy: Properties and Mechanisms.
+This repository contains the code and data for the paper:
+
+> **Inference Privacy: Properties and Mechanisms**  
+> Fengwei Tian, Ravi Tandon  
+> Asilomar Conference on Signals, Systems, and Computers, 2024 · [arXiv](https://arxiv.org/abs/2411.18746)
 
 ## Description
 
@@ -13,9 +17,20 @@ Through a series of experiments across various datasets, we demonstrate the usef
 ## Key Files and Folders
 This repository contains two separate folders for each dataset: CIFAR10, and CIFAR100. 
 
-*   Contains the scripts used for implentating of verious mechanisms for each dataset. 
+*   Contains the scripts used for implementing the various mechanisms for each dataset. 
 *   `LICENSE`: License information for the code and data.
 
 ## Running the Code
 
-Each code is an indepedent Notebook File, please follow the instruction in each Notebook file. 
+Each script is an independent notebook. Follow the instructions inside each notebook.
+
+## Citation
+
+```bibtex
+@inproceedings{tian2024inference,
+  title     = {Inference Privacy: Properties and Mechanisms},
+  author    = {Tian, Fengwei and Tandon, Ravi},
+  booktitle = {Asilomar Conference on Signals, Systems, and Computers},
+  year      = {2024}
+}
+```
