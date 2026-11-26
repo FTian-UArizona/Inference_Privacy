@@ -15,14 +15,28 @@ In this paper, we establish fundamental properties of the IP privacy notion and 
 Through a series of experiments across various datasets, we demonstrate the usefulness of our framework and highlight the resulting trade-offs between utility and privacy during inference.
 
 ## Key Files and Folders
-This repository contains two separate folders for each dataset: CIFAR10, and CIFAR100. 
 
-*   Contains the scripts used for implementing the various mechanisms for each dataset. 
-*   `LICENSE`: License information for the code and data.
+There is one folder per dataset: `CIFAR10/` and `CIFAR100/`. Each folder contains:
+
+*   `*_FineTune.ipynb`: grid search for fine-tuning the pretrained ResNet-18 under noise.
+*   `*_test.ipynb`: Gaussian input, output, and mixed perturbation experiments; makes the figures.
+*   `SLL.ipynb`: checks the Lipschitz constant of the SLL model.
+*   `SLL/`: SDP-based Lipschitz Layer (SLL) code from the original authors (see Third-party code below).
+
+The SLL model checkpoints (for example `SLL/modelsmall.ckpt`) are not included in this repository.
 
 ## Running the Code
 
 Each script is an independent notebook. Follow the instructions inside each notebook.
+
+## Third-party code
+
+The `CIFAR10/SLL/` and `CIFAR100/SLL/` folders contain code from
+[Lipschitz-SLL-Networks](https://github.com/araujoalexandre/Lipschitz-SLL-Networks)
+by Alexandre Araujo, Aaron Havens, Blaise Delattre, Alexandre Allauzen, and Bin Hu
+("A Unified Algebraic Perspective on Lipschitz Neural Networks", ICLR 2023).
+That code is licensed under the Apache License 2.0. A copy of the license is in each `SLL/` folder.
+We changed `models/model.py`, `data/readers.py`, and `utils.py` for this project. The other SLL files are unchanged.
 
 ## Citation
 
